@@ -3,9 +3,10 @@
 # Для этого Петя делает две подсказки. Он называет сумму этих чисел S и их произведение P. 
 # Помогите Кате отгадать задуманные Петей числа.
 
-s=int(input("Введите сумму: "))
-p=int(input("Введите произведение: "))
-for x in range(s):
- for y in range(p):
-  if s ==         y:
-   print(f"Задуманные числа - {x} и {y}")
+
+x = int(input())
+y = int(input())
+for i in range(x):
+    for j in range(y):
+     if x == i + j and y == i * j:
+      print(i, j)
